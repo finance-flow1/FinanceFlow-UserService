@@ -16,6 +16,9 @@ on:
     paths:
       - "**"
       - ".github/workflows/userservice-ci.yml"
+permissions:
+  contents: write  
+  packages: write   
 
 jobs:
   ci:
