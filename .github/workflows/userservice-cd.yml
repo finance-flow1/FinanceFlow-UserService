@@ -16,7 +16,6 @@ jobs:
     uses: finance-flow1/CI-CD-Templates/.github/workflows/common-cd.yml@main
     with:
       service-name: financeflow-userservice
-      helm-chart-key: user-service
       ci-workflow-name: User_CI
     secrets:
       APP_ID: ${{ secrets.APP_ID }}
